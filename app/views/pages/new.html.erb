@@ -1,0 +1,28 @@
+<%# This form willbe displayed in the partial file %>
+<%= render 'form', page: @page%>
+
+<%# # This will embed the form HTML in the output. %>
+
+<%# <%= form_for(@page) do |f| %>
+  <%# <div class="field"> %>
+   <%# # This will output a label for the "title" field. %>
+    <%# <%= f.label :title %> 
+    <%# # This will output a text field used to set the
+    # title attribute of the Page object. %>
+    <%# <%= f.text_field :title %> 
+  <%#</div>
+
+  <%#<div class="field">
+  <%#  <%= f.label :body %>
+  <%#  <%= f.text_area :body %>
+  <%#</div>
+
+  <%#<div class="field">
+  <%#  <%= f.label :slug %>
+  <%#  <%= f.text_field :slug %>
+  <%#</div>
+
+  <%#<div>
+  <%#  <%= f.submit %>
+  <%#</div>
+<%#<% end %> 
